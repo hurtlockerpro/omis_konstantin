@@ -1,4 +1,65 @@
-a{
+
+
+h1{
+    color: red;
+}
+
+
+/* ID */
+#header{
+    color: royalblue;
+}
+
+/* CLASS */
+.header{
+    color: green;
+}
+
+/* 
+PRIORITY 
+1 - ID 
+2 - class 
+3 - TAG
+*/ 
+
+#container {
+    border: 1px solid red;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#container > div {
+    border: 1px solid blue;
+    width: 50px;
+    height: 50px;
+}
+
+#container > div:last-child {
+    background: green;
+}
+
+#container > div:first-child {
+    background: red;
+}
+
+#container > div:nth-child(2) {
+    background: yellow;
+}
+
+#container::before{
+    content: 'abc';
+}
+
+#container::after{
+    content: 'xyz';
+    display: block;
+    border: 2px dotted blue;
     width: 100px;
     height: 100px;
+}
+
+
+#container > div:nth-child(3):hover{
+    background-color: chartreuse;
 }

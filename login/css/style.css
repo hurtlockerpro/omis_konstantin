@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #2CCB93;
+
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#login {
+  width: 1035px;
+  height: 594px;
+  margin: auto;
+  /* border: 1px solid red; */
+  background-color: white;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.6); 
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.6);
+}
+
+#left {
+  width: 515px;
+  height: 594px;
+  float: left;
+}
+
+#left > img {
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+#right {
+  width: 515px;
+  float: right;
+  text-align: center;
+}
+
+#user{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#header {
+    text-transform: uppercase;
+}
+
+input[name="username"], input[name="password"]{
+    border: 0;
+    font-size: 18px;
+    height: 35px;
+    width: 250px;
+    padding-left: 35px;
+    border-bottom: 2px solid gray;
+}
+
+input[name="username"]:focus, input[name="password"]:focus{
+    outline: none;
+    border-bottom: 3px solid #2CCB93;
+}
+
+form > div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form > div > label {
+    font-weight: bold;
+    color: gray;
+    font-size: 13px;
+    width: 100%;
+    display: block;
+    text-align: left;
+    padding-left: 150px;
+    text-transform: capitalize;
+}
+
+.fas {
+    position: relative;
+    left: 25px;
+    top: 2px;
+}
+
+input:focus + .fas {
+    color: #2CCB93 !important;
+}
+
+

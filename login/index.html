@@ -3,27 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
 
     <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 
-
+    
 
     <div id="login">
-        <div id="left"></div>
+        <div id="left">
+            <img src="img/login_bg.jpg">
+        </div>
         <div id="right">
-                <div><img src=""></div>
-                <div><h2>Welocome</h2></div>
+                <div><img src="img/user.jpg" id="user"></div>
+                <div><h2 id="header">Welcome</h2></div>
                 <form>
                     <div>
                         <label>username</label>
-                        <input type="text" name="username">    
+                        <span class="fas fa-user"></span>   
+                        <input type="text" name="username"> 
+                        
                     </div>
                     <div>
                         <label>password</label>
-                        <input type="password" name="password"> </div>
+                        <i class="fas fa-lock"></i>
+                        <input type="password" name="password"> 
+                        
+                    </div>
                     <div><a href="password.html">Forgot password?</a></div>
                     <div><input type="submit" name="" value="login"> </div></div>
                 </form>

@@ -5,11 +5,11 @@
 }
 
 body {
-    background-color: #2CCB93;
+  background-color: #2ccb93;
 
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
 }
 
 #login {
@@ -19,8 +19,8 @@ body {
   /* border: 1px solid red; */
   background-color: white;
   border-radius: 50px;
-  -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.6); 
-  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.6);
 }
 
 #left {
@@ -30,64 +30,91 @@ body {
 }
 
 #left > img {
-    border-bottom-left-radius: 50px;
-    border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
 }
 
 #right {
   width: 515px;
   float: right;
   text-align: center;
+  padding-top: 85px;
 }
 
-#user{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+#user {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
 #header {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
-input[name="username"], input[name="password"]{
-    border: 0;
-    font-size: 18px;
-    height: 35px;
-    width: 250px;
-    padding-left: 35px;
-    border-bottom: 2px solid gray;
+input[name='username'],
+input[name='password'] {
+  border: 0;
+  font-size: 18px;
+  height: 35px;
+  width: 250px;
+  padding-left: 35px;
+  border-bottom: 2px solid gray;
 }
 
-input[name="username"]:focus, input[name="password"]:focus{
-    outline: none;
-    border-bottom: 3px solid #2CCB93;
+input[name='username']:focus,
+input[name='password']:focus {
+  outline: none;
+  border-bottom: 3px solid #2ccb93;
 }
 
 form > div {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 form > div > label {
-    font-weight: bold;
-    color: gray;
-    font-size: 13px;
-    width: 100%;
-    display: block;
-    text-align: left;
-    padding-left: 150px;
-    text-transform: capitalize;
+  font-weight: bold;
+  color: gray;
+  font-size: 13px;
+  width: 100%;
+  display: block;
+  text-align: left;
+  padding-left: 150px;
+  text-transform: capitalize;
 }
 
 .fas {
-    position: relative;
-    left: 25px;
-    top: 2px;
+  position: relative;
+  left: 25px;
+  top: 2px;
 }
 
 input:focus + .fas {
-    color: #2CCB93 !important;
+  color: #2ccb93 !important;
 }
 
+a {
+  color: gray;
+  text-decoration: none;
+}
 
+a:hover{
+    text-decoration: underline;
+}
+
+input[type='submit'] {
+  background: rgb(44, 203, 147);
+  background: linear-gradient(
+    90deg,
+    rgba(44, 203, 147, 1) 0%,
+    rgba(59, 214, 77, 0.9976365546218487) 100%
+  );
+  width: 285px;
+  height: 35px;
+  border-radius: 25px;
+  margin-left: 17px;
+  border: 1px solid #0b9c1b;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}

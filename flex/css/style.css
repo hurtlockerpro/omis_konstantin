@@ -1,0 +1,16 @@
+
+.box{
+    display: flex; /* or inline-flex */
+    flex-direction: row-reverse;
+}
+
+.item {
+    border: 1px solid red;
+}
+
+/* col-xl-12 { fdshgjh } */ 
+@media only screen and (max-device-width: 768px) {
+    .item:nth-child(2) {
+      background-color: rgb(22, 175, 226);
+    }
+}

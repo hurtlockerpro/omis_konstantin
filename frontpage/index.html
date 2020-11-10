@@ -12,7 +12,7 @@
     <title>Business Frontpage - Start Bootstrap Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" />
 
     <!-- Custom styles for this template -->
     <link href="css/business-frontpage.css" rel="stylesheet" />
@@ -159,19 +159,24 @@
     <!-- /.container -->
 
     <div class="container">
-      <div class="row">
+      <div class="row mt-4 mb-4 border-bottom border-primary">
         <div class="col-md-8">
           <h1>The most recent products</h1>
         </div>
-        <div class="col-md-4 text-right">
+        <div class="col-md-4">
           <form action="">
-            <select name="" id="">
-              <option value="">Option 1</option>
-              <option value="">Option 2</option>
-              <option value="">Option 3</option>
-              <option value="">Option 4</option>
-              <option value="">Option 5</option>
-            </select>
+            <div class="input-group float-right pt-2"> 
+              
+
+              <select class="custom-select">
+                <option selected>Choose...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              
+            </div>
+
           </form>
         </div>
       </div>
@@ -313,17 +318,79 @@
     </div>
 
     <!-- Footer -->
-    <footer class="py-5 bg-dark">
+    <footer class="pt-4">
       <div class="container">
-        <p class="m-0 text-center text-white">
-          Copyright &copy; Your Website 2020
-        </p>
+        <div class="row">
+          <div class="col-12 col-md">
+            LOGO
+          </div>
+          <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Cool stuff</a></li>
+              <li><a class="text-muted" href="#">Random feature</a></li>
+              <li><a class="text-muted" href="#">Team feature</a></li>
+              <li><a class="text-muted" href="#">Stuff for developers</a></li>
+              <li><a class="text-muted" href="#">Another one</a></li>
+              <li><a class="text-muted" href="#">Last time</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Resource</a></li>
+              <li><a class="text-muted" href="#">Resource name</a></li>
+              <li><a class="text-muted" href="#">Another resource</a></li>
+              <li><a class="text-muted" href="#">Final resource</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Team</a></li>
+              <li><a class="text-muted" href="#">Locations</a></li>
+              <li><a class="text-muted" href="#">Privacy</a></li>
+              <li><a class="text-muted" href="#">Terms</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <!-- /.container -->
     </footer>
 
+    <div class="sub-footer">
+      
+      <div class="container">
+
+        <div class="row justify-content-center pt-4">
+          <h5>Subscribe to newsletter</h5>
+        </div>
+
+        <div class="row justify-content-center p-4">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <span class="input-group-text" id="basic-addon2" onclick="$.notify('Hello World! Vladimir', {globalPosition: 'bottom left'});">subscribe</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      
+  </div>
+
+priverVladimirHelloWorld -> Camel Case
+
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js" integrity="sha512-iceXjjbmB2rwoX93Ka6HAHP+B76IY1z0o3h+N1PeDtRSsyeetU3/0QKJqGyPJcX63zysNehggFwMC/bi7dvMig==" crossorigin="anonymous"></script>
+
+    <script src="js/notify.min.js"></script>
   </body>
 </html>

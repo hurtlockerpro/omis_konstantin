@@ -24,3 +24,39 @@ body {
 .carousel-item {
   z-index: -1;
 }
+
+.input-group {
+  width: 50%;
+}
+
+select {
+  padding-top: 0.5rem !important;
+}
+
+.container {
+  border-bottom: 1ps solid gray;
+}
+
+/* FOOTER */ 
+footer {
+  background-color: rgb(66, 68, 87);
+  height: 225px;
+}
+
+footer h5, .sub-footer h5 {
+  color: white !important;
+}
+
+.sub-footer{
+  background-color: rgb(39, 40, 51);
+}
+
+#basic-addon2 {
+  background-color: tomato;
+}
+
+
+.box{
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+}

@@ -79,7 +79,7 @@ function showAllert(msg){
 
 //showAllert('Hello bla bla bla bla bla bla');
 
-let menus = ['home', 'Code', 'Video', 'Audio'];
+let menus = ['Home', 'Code', 'Video', 'Audio'];
 let resultMenu = '';
 
 function addMenu() // camel case
@@ -119,4 +119,6 @@ function generateHtmlTagA(title, href = "#")
 
 showMenu();
 
+
+// TODO: rewrite same project as object (not array)
 

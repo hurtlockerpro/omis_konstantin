@@ -6,13 +6,20 @@
     <title>Personal Page</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" />
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" />-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.css" integrity="sha512-phGxLIsvHFArdI7IyLjv14dchvbVkEDaH95efvAae/y2exeWBQCQDpNFbOTdV1p4/pIa/XtbuDCnfhDEIXhvGQ==" crossorigin="anonymous" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.1/swiper-bundle.min.css" integrity="sha512-Jx7hgWZErcwTLoopOyS5XvroOiSBz5EkcZHXBop7MzH0NhQT7ed9IrtOxnuxrv2F1HCZqE4S2dqXDUzbHFoWlg==" crossorigin="anonymous" />
 
     <link href="css/style.css" rel="stylesheet">
 
 </head>
 <body>
-    
+    <i class="far fa-check-square"></i>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -50,16 +57,15 @@
               </div>
             </div>
           </nav>
-    
 
     <div class="container">
         <div class="row align-items-center m-5">
             
-            <div class="col">
+            <div class="col text-white">
                 <h1>Get Insurance Policy and Save 20%! </h1>
                 Lorem ipsum dolor sit amet eiusmod tempor labore offer magna aliqua. Enim lorem ipsum dolor minimo laboris aliquiped commodo consequat.
 
-                <ul>
+                <ul class="myList">
                     <li>Tendis tempor ante acu ipsum finibus</li>
                     <li> Atimus etims urnatis quisle ratione netis</li>
                     <li>Ratione lorem nets et sequi tempor</li>
@@ -96,20 +102,195 @@
                                 <input type="submit" class="btn btn-primary w-100 rounded-pill" value="Send">
                             </div>
                         </form>
+
+                        <div id="formSubmitResult">...</div>
                     </div>
 
             </div>
         </div>
 
     </div>
-
 </header>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="container">
+      <div class="col">
+        <div class="row">
+
+          <div class="col-6 wow animate__fadeInLeft" data-wow-duration="2s" data-wow-delay="0.4s">
+            <img src="img/img-healthins.png" width="390" height="337">
+          </div>
+          <div class="col-6 wow animate__fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s"> 
+                                
+              <!-- Icon Image --> 
+              <img src="img/icon-heart.png" alt="logo" class="dtr-mb-4"> 
+              
+              <!-- Heading -->
+              <h2 class="dtr-mb-4">Health Insurance</h2>
+              
+              <!-- Text -->
+              <p class="dtr-mb-5">Lorem ipsum dolor sit amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation commodo consequat. </p>
+              
+              <!-- button here -->
+              <div class="dtr-btn"> <a href="#">Get a quote<span><i class="icon-arrow-right" aria-hidden="true"></i></span> </a> </div>
+         
+          </div>
+
+
+        </div>
+      </div>
+
+      
+
+
+     
+      <div class="row">
+          <!-- Swiper -->
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                
+
+                <div class="dtr-testimonial-wrapper">
+                  <div class="d-flex align-items-center dtr-mb-4"> 
+                      <!-- image--> 
+                      <img src="img/user-4.jpg" width="80" height="80" alt="image" class="rounded-circle dtr-mr-3"> 
+                      <!-- client info -->
+                      <div class="dtr-mr-5">
+                          <h6 class="dtr-mb-0">Kyle McCullum</h6>
+                          <p class="dtr-mb-0">Home Insurance</p>
+                      </div>
+                      <span class="dtr-5-stars ml-auto"></span> </div>
+                  <!-- review text --> 
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  <!-- review text ends --> 
+              </div>
+
+              </div>
+              <div class="swiper-slide">
+
+                <div class="dtr-testimonial-wrapper">
+                  <div class="d-flex align-items-center dtr-mb-4"> 
+                      <!-- image--> 
+                      <img src="img/user-4.jpg" width="80" height="80" alt="image" class="rounded-circle dtr-mr-3"> 
+                      <!-- client info -->
+                      <div class="dtr-mr-5">
+                          <h6 class="dtr-mb-0">Kyle McCullum</h6>
+                          <p class="dtr-mb-0">Home Insurance</p>
+                      </div>
+                      <span class="dtr-5-stars ml-auto"></span> </div>
+                  <!-- review text --> 
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  <!-- review text ends --> 
+              </div>
+
+
+              </div>
+              <div class="swiper-slide">
+
+                <div class="dtr-testimonial-wrapper">
+                  <div class="d-flex align-items-center dtr-mb-4"> 
+                      <!-- image--> 
+                      <img src="img/user-4.jpg" width="80" height="80" alt="image" class="rounded-circle dtr-mr-3"> 
+                      <!-- client info -->
+                      <div class="dtr-mr-5">
+                          <h6 class="dtr-mb-0">Kyle McCullum</h6>
+                          <p class="dtr-mb-0">Home Insurance</p>
+                      </div>
+                      <span class="dtr-5-stars ml-auto"></span> </div>
+                  <!-- review text --> 
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  <!-- review text ends --> 
+              </div>
+
+              </div>
+              <div class="swiper-slide">
+                <div class="dtr-testimonial-wrapper">
+                  <div class="d-flex align-items-center dtr-mb-4"> 
+                      <!-- image--> 
+                      <img src="img/user-4.jpg" width="80" height="80" alt="image" class="rounded-circle dtr-mr-3"> 
+                      <!-- client info -->
+                      <div class="dtr-mr-5">
+                          <h6 class="dtr-mb-0">Kyle McCullum</h6>
+                          <p class="dtr-mb-0">Home Insurance</p>
+                      </div>
+                      <span class="dtr-5-stars ml-auto"></span> </div>
+                  <!-- review text --> 
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  <!-- review text ends --> 
+              </div>
+
+              </div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+              <div class="swiper-slide">Slide 10</div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          </div>
+     
+
+          <div class="row">
+      
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+         
+        </div>
+    </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js" integrity="sha512-iceXjjbmB2rwoX93Ka6HAHP+B76IY1z0o3h+N1PeDtRSsyeetU3/0QKJqGyPJcX63zysNehggFwMC/bi7dvMig==" crossorigin="anonymous"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js" integrity="sha512-iceXjjbmB2rwoX93Ka6HAHP+B76IY1z0o3h+N1PeDtRSsyeetU3/0QKJqGyPJcX63zysNehggFwMC/bi7dvMig==" crossorigin="anonymous"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.1/swiper-bundle.min.js" integrity="sha512-MzZOTeyE0I70H6Pc2DcdhuPcGAeoGeT7yifrbR/cx92UTT7lG+OLXu70kPtJzqPrnmOjfmUHzklwT0GOqrYcZw==" crossorigin="anonymous"></script>
 
+    <script src="js/wow.js"></script> 
     <script src="js/main.js"></script>
 </body>
 </html>

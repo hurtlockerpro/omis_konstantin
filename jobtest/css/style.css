@@ -1,0 +1,36 @@
+/*
+#myText{
+
+    border: 1px solid red;
+    padding: 15px;
+    margin: 25px;
+}*/
+
+span{
+    color: red;
+    text-decoration: underline;
+    /*margin-left: 25px;
+    margin-right: 25px;*/
+    margin: 25px 25px 0 0;
+}
+
+#result {
+    width: 100px;
+    height: 100px
+}
+
+/*  TODO */
+.todoItem {
+    text-transform: capitalize;
+    border-bottom: 1px solid gray;
+    margin-bottom: 3px;
+}
+
+.todoItem > button {
+    clear: both;
+    float: right;
+    background-color: red;
+    font-weight: bold;
+    border: 0;
+    
+}

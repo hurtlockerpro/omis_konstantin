@@ -1,0 +1,56 @@
+
+
+
+
+.title-size{
+    font-size: 20px;
+}
+
+.color-blue{
+    color: blue;
+}
+
+.h1-style-italic{
+    font-style: italic;
+}
+
+h1::before{
+    content: 'ggggg';
+    font-size: 8px;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: blue;
+    text-align: center;
+}
+
+.bnt-color-red{
+    color: red;
+}
+.btn-color-green{
+    color: green;
+}
+
+.right-icon{
+    position: relative;
+    top: 2px;
+    left: 15px;
+}
+
+.left-icon{
+    position: relative;
+    top: 2px;
+    right: 15px;
+}
+
+.btn span, .btn div {
+    color: white;
+    position: relative;
+    top: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}

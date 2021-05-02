@@ -1,0 +1,695 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+@font-face {
+    font-family:'Akzidenz-Grotesk BQ Condensed';
+    src: url('AkzidenzGroteskBQ-BdCnd.eot');
+	src: url('AkzidenzGroteskBQ-BdCnd.eot?#iefix') format('embedded-opentype'),
+		url('AkzidenzGroteskBQ-BdCnd.woff2') format('woff2'),
+		url('AkzidenzGroteskBQ-BdCnd.woff') format('woff'),
+		url('AkzidenzGroteskBQ-BdCnd.svg#AkzidenzGroteskBQ-BdCnd') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: condensed;
+    unicode-range: U+0020-00FE;
+}
+
+
+.wrapper{
+
+}
+
+
+.container {
+max-width: 870px;
+margin: 0 auto;
+
+}
+
+
+.header-top {
+display: flex;
+justify-content: space-between;
+margin: 24px 0 -22px -6px;
+}
+
+
+
+
+.header-top__languages {
+}
+
+
+.header-top__lng {
+font-family: 'Bebas Neue', cursive;
+ font-size: 12px;
+ line-height: 25px;
+ text-transform: uppercase;
+ letter-spacing: 0.1em;
+ color: #ffffff;
+ color: #000000;
+ margin: 0 0 0 15px;
+}
+
+.header-top__lng:hover{
+background-color: black;
+color: white;
+
+}
+
+
+.header-top__Link {
+    font-size: 15px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family:'Akzidenz-Grotesk BQ Condensed';
+}
+
+
+.header-top__Link:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+.header-bot {
+display: flex;
+align-items: center;
+}
+
+
+.header-bot__column {
+flex: 0 0 33.333%;
+}
+
+.header-bot-column__menu {
+    margin: 0 0 0 10px;
+}
+
+.header-bot-column__list {
+display: flex;
+justify-content: space-between;
+    font-family:'Akzidenz-Grotesk BQ Condensed';
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+
+
+.header-bot-menu__link {
+
+   }
+
+
+
+.header-bot__logo {
+display: block;
+text-align: center;
+}
+
+.header-logo__text {
+    align-items: center;
+    font-family: 'Bebas Neue';
+    font-size: 10px;
+    line-height: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.7em;
+    color: #000000;
+}
+
+.header-bot__img {
+    display: inline-block;
+    margin: 20px 0 20px 0 ;
+
+}
+
+
+
+.content {
+
+}
+
+
+.private {
+margin: 33px 0 0 0 ;
+display: flex;
+
+}
+
+
+
+.privete__column {
+flex: 0 0 50%;
+
+
+}
+
+
+.private__img {
+background-image: url(../img/block__1/rectangle_6_778.jpg);
+background-position: 0 0;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+min-height: 100%;
+
+}
+
+
+
+.private__body {
+background-color: black;
+background-size: 683px;
+height: 425px;
+background-color: #000000;
+padding: 82px  ;
+}
+
+.private__title {
+    font-family:'Akzidenz-Grotesk BQ Condensed';
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    margin: 0 0 37px 0  ;
+}
+
+
+.private__text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    margin:0 0 55px 0 ;
+}
+
+
+.private__btns {
+   
+    
+
+}
+
+
+.private-body-btns__item {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #fffffe;
+    padding: 10px 0px 0 0 ;
+    display: inline-block;
+    width: 130px;
+    height: 45px;
+    text-align: center;
+    
+}
+
+.private-body-btns__item:hover{
+    background-color: white;
+    color: black;
+}    
+
+
+
+
+.products {
+    
+    
+}
+
+
+.container {
+max-width: 870px;
+
+}
+
+
+
+.products__body {
+    display: flex;
+    margin: 75px 0 0 0;
+    
+    
+}
+
+.products__column {
+flex: 0 0 25%;
+}
+
+.products__item {
+
+
+}
+
+
+
+.products-item__title {
+    font-family:'Akzidenz-Grotesk BQ Condensed';
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin:25px 0 36px 0  ;
+}
+
+
+
+.products-item__text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0 0 36px 0 ;
+}
+
+
+
+.products-item__btn {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    display: inline-block;
+    background-color: black;
+    width: 155px;
+    height: 50px;
+    text-align: center;
+    padding:14px  ;
+    margin:0 0 29px 0 ;
+}
+
+
+
+.products-item__link {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
+    line-height: 25px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #000000;
+    display: block;
+    font-weight: 500;
+}
+
+.Choose {
+display: flex;
+margin:79px 0 0 0 ;
+}
+
+.choose__column {
+flex: 0 0 50%;
+
+}
+
+
+.choose__body {
+display: flex;
+display: inline;
+margin:79px 0 0 0 ;
+
+}
+
+
+.choose__text {
+    font-family:'Akzidenz-Grotesk BQ Condensed';
+    font-size: 50px;
+    line-height: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    background-color: black;
+    width: 683px;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+    padding:57px 0 0 90px ;
+    min-width: 100%;
+}
+
+
+.choose__img {
+    background-image: url(../img/block__3/layer_3_1396\ \(1\).jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100%;
+}
+
+
+
+.colums {
+    background-color: #ebebeb;
+    padding: 50px 0 0 0;
+}
+
+
+
+.container {
+
+}
+
+
+
+.colums__row {
+display: flex;
+flex-wrap: wrap;
+}
+
+
+
+.colums__column {
+    display: flex;
+    flex: 0 1 50%;
+    margin: 0 0 50px 0 ;
+}
+
+
+.colums__img {
+margin: 0 10px 0 0  ;
+
+}
+
+.column__body {
+
+}
+
+
+.column__title {
+    font-family:'Akzidenz-Grotesk BQ Condensed';
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin: 0 0 23px 0 ;
+}
+
+
+.column__text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #000000;
+
+}
+
+.contact {
+background-color: #ffffff;
+}
+
+
+.contacts-top {
+margin:82px 0 0 0 ;
+}
+
+
+.container {
+
+}
+
+
+
+.contacts__title {
+    font-family:'Akzidenz-Grotesk BQ Condensed';
+    font-size: 50px;
+    line-height: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin: 0 0 39px 0;
+}
+
+
+
+.contacts-body {
+display: flex;
+max-width: 628px;
+justify-content: space-between;
+}
+
+
+.column {
+    
+}
+
+
+
+.adress {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #000000;
+    
+}
+
+.fa-map-marker-alt {
+    padding: 0 13px 0 0;
+
+}
+
+.fa-phone-alt {
+padding: 0 10px 0 0;
+
+}
+
+
+.mailbox {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #000000;
+    
+}
+
+
+.fa-envelope {
+    padding: 0px 31px 0 0;
+}
+
+
+.fa-facebook-square  {
+    padding: 0 31px 0 0;
+}
+
+
+.fa-twitter-square {
+padding: 0 31px 0 0;
+}
+
+
+.fa-instagram-square {
+    padding: 0 31px 0 0;
+}
+
+
+.fa-google-plus-square {
+    
+}
+
+
+
+.contacts-bot {
+display: flex;
+margin: 26px 0 0 0;
+
+}
+
+
+
+.contacts-bot__column {
+flex: 0 0 50%;
+
+}
+
+
+
+
+.bot-column__img {
+    background-image: url(../img/block__5/rectangle_6_1368.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100%
+
+
+}
+
+
+
+.contact-bot__title {
+    font-family:'Akzidenz-Grotesk BQ Condensed';
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    margin: 20px 30px 38px -27px ;
+    padding: 0 0 0 00px;
+}
+
+
+.contacts-form__body {
+    background-color: black;
+    background-size: 683px;
+    height: 475px;
+    background-color: #000000;
+    padding:30px 0 0 82px  ;
+    margin: 0 0 0 0px;
+
+}
+
+
+
+.contacts-form-body__text {
+    width: 378px;
+    border: 2px solid #959595;
+    margin: 0 0 30px -27px ;
+    
+}
+
+.input {
+    width: 374px;
+    height: 40px;
+    background-color:#252525 ;
+    color:#959595 ;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 0 0 0 16px;
+}
+
+.textarea{
+    width: 374px;
+    height: 100px;
+    background-color:#252525 ;
+    color:#959595 ;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 8px 0 0 16px;
+}
+
+.contacts-bot__btns {
+    width: 155px;
+    height: 50px;
+
+    margin: 0 0 0 -27px;
+
+}
+
+
+.contacts-bot-btns__text {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #fffffe;
+    padding: 10px 0px 0 0 ;
+    display: inline-block;
+    width: 130px;
+    height: 45px;
+    text-align: center;
+}
+
+
+.contacts-bot-btns__text:hover{
+    color: black;
+    background-color: white;
+
+}
+
+footer{
+
+}
+.footer__finish{
+display: flex;
+justify-content: space-between;
+margin:59px 0 53px 0 ;
+padding: 0 0 59px 0 ;
+}
+
+.container {
+
+}
+
+
+.footer__text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #4d4d4d;
+
+}
+
+
+.footer__logo {
+margin: -22px 0 0 0;
+
+
+}
+
+.FooterLastWord{
+    text-decoration: underline;
+}
